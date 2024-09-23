@@ -23,3 +23,11 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// cypress/support/commands.js
+
+// const faker = require('faker');
+// Cypress.Commands.add('generateRandomEmail', () => {
+//   return faker.internet.email();
+// });
+  
